@@ -28,24 +28,45 @@ body {
     text-align: center;
     font-size: 32px;
     color: white;
+    text-shadow: 2px 2px grey;
 }
 
 .table {
     width: 80%;
     margin: auto;
-    position: relative;
-    background-color: chartreuse;
+    text-align: center;
 }
 
 .card {
-    width: 150px;
-    height: 200px;
+    width: 20%;
+    height: 250px;
     float: left;
-    position: relative;
-    left: 5%;
-    top: 5%;
-    margin: 15px;
-    background-color: red;
+    margin: 2.5% 2.5%;
+    background-position: center;
+    background-size: contain;
+    background-image: url(../img/pattern.png);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 2px 2px grey;
+}
+
+figure {
+    height: 250px;
+    display: none;
+    text-align: center;
+    font-size: 30px;
+}
+
+img {
+    width: 100%;
+}
+
+.card:hover figure {
+    display: block;
+    background-color: white;
+}
+.card:hover {
+    background: none;
 }
 
 footer {
@@ -54,4 +75,28 @@ footer {
     font-size: 20px;
     color: black;
     text-align: center;
+}
+
+.balloon {
+    color: firebrick;
+}
+
+.bicycle {
+    color: goldenrod;
+}
+
+.cruise {
+    color: green;
+}
+
+.submarine {
+    color: hotpink;
+}
+
+.tractor {
+    color: royalblue;
+}
+
+.tram {
+    color: skyblue;
 }
